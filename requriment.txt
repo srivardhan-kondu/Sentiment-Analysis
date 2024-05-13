@@ -1,0 +1,19 @@
+# Sentiment Analysis Streamlit App
+
+This Streamlit app allows you to perform sentiment analysis on product reviews extracted from Flipkart. Simply enter the Flipkart product URL and the number of reviews you want to analyze, and the app will extract the reviews, clean them, and display the results including the original reviews, cleaned reviews, customer names, comment heads, and ratings.
+
+## Prerequisites
+
+Before running the app, make sure you have the following Python packages installed:
+
+- re
+- nltk
+- joblib
+- requests
+- numpy
+- matplotlib
+- beautifulsoup4
+- wordcloud
+- streamlit
+
+You can install these packages using pip:
